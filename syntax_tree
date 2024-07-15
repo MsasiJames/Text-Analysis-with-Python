@@ -1,0 +1,13 @@
+digraph {
+	"2349764474672_Module (Module)" [label="Module (Module)"]
+	"2349764469488_Expr (Expr)" [label="Expr (Expr)"]
+	"2349764474672_Module (Module)" -> "2349764469488_Expr (Expr)"
+	"2349764470784_Call (Call)" [label="Call (Call)"]
+	"2349764469488_Expr (Expr)" -> "2349764470784_Call (Call)"
+	"2349764476592_Name (Name)" [label="Name (Name)"]
+	"2349764470784_Call (Call)" -> "2349764476592_Name (Name)"
+	"2349764667680_Load (Load)" [label="Load (Load)"]
+	"2349764476592_Name (Name)" -> "2349764667680_Load (Load)"
+	"2349773078096_Constant (Constant)" [label="Constant (Constant)"]
+	"2349764470784_Call (Call)" -> "2349773078096_Constant (Constant)"
+}

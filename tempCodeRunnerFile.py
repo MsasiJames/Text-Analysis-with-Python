@@ -1,0 +1,1 @@
+sample_size = int(len(df) * 0.01)
